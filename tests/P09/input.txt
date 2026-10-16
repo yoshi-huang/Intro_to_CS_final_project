@@ -1,0 +1,18 @@
+IMPORT stock.txt
+PRICE P 10
+PRICE missing 1
+QUERY missing
+CHECKOUT missing
+ADD missing P 1
+CART UNPRICED
+ADD UNPRICED U 1
+CHECKOUT UNPRICED
+CART SHORT
+ADD SHORT P 2
+CHECKOUT SHORT
+IMPORT absent.txt
+LOAD absent.txt
+SAVE absent_parent/state.txt
+QUERY P
+REPORT
+QUIT

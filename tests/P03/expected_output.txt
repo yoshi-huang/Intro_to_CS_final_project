@@ -1,0 +1,24 @@
+OK IMPORT 2
+OK PRICE A 10
+OK PRICE B 30
+OK CART C1
+OK ADD C1 B 1
+OK ADD C1 A 1
+OK ADD C1 B 2
+RECEIPT C1
+  A x1 @10 = 10
+  B x2 @30 = 60
+TOTAL 70
+COST 14
+GIFT none
+PROFIT 56
+QUERY B Beta price=30 stock=1
+  #2 qty=1 cost=6
+REPORT
+  A stock=2 value=4
+  B stock=1 value=6
+REVENUE 70
+COGS 14
+GIFTCOST 0
+PROFIT 56
+BYE

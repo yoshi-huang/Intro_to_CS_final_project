@@ -1,0 +1,14 @@
+NEXT_BATCH 5
+PRODUCTS 3
+A 20
+Sample Item
+B -1
+Unpriced Item
+Z 9
+Sold Out
+PROMO 0
+TOTALS 9 2 0
+BATCHES 3
+A 1 2 5
+A 2 3 7
+B 4 1 4

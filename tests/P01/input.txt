@@ -1,0 +1,5 @@
+REPORT
+SAVE empty.txt
+LOAD empty.txt
+REPORT
+QUIT

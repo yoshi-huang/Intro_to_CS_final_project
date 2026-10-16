@@ -1,0 +1,29 @@
+OK IMPORT 1
+OK PRICE P 10
+OK CART C
+OK CART c
+OK ADD C P 1
+OK ADD c P 2
+RECEIPT C
+  P x1 @10 = 10
+TOTAL 10
+COST 2
+GIFT none
+PROFIT 8
+QUERY P Product price=10 stock=4
+  #1 qty=4 cost=2
+RECEIPT c
+  P x2 @10 = 20
+TOTAL 20
+COST 4
+GIFT none
+PROFIT 16
+QUERY P Product price=10 stock=2
+  #1 qty=2 cost=2
+REPORT
+  P stock=2 value=4
+REVENUE 30
+COGS 6
+GIFTCOST 0
+PROFIT 24
+BYE

@@ -1,0 +1,29 @@
+OK IMPORT 4
+OK PRICE A 20
+OK PRICE Z 9
+OK CART C1
+OK ADD C1 Z 1
+RECEIPT C1
+  Z x1 @9 = 9
+TOTAL 9
+COST 2
+GIFT none
+PROFIT 7
+OK SAVE
+OK PRICE A 30
+OK LOAD
+QUERY A Sample Item price=20 stock=5
+  #1 qty=2 cost=5
+  #2 qty=3 cost=7
+QUERY B Unpriced Item price=none stock=1
+  #4 qty=1 cost=4
+QUERY Z Sold Out price=9 stock=0
+REPORT
+  A stock=5 value=31
+  B stock=1 value=4
+REVENUE 9
+COGS 2
+GIFTCOST 0
+PROFIT 7
+OK SAVE
+BYE

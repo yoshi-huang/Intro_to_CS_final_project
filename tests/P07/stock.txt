@@ -1,0 +1,4 @@
+A###Sample Item@@@2&&&5
+A###Sample Item@@@3&&&7
+Z###Sold Out@@@1&&&2
+B###Unpriced Item@@@1&&&4

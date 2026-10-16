@@ -1,0 +1,18 @@
+OK IMPORT 2
+QUERY P001 Coffee Beans price=none stock=5
+  #2 qty=5 cost=4
+OK PRICE P001 20
+OK PRICE P002 30
+QUERY P001 Coffee Beans price=20 stock=5
+  #2 qty=5 cost=4
+QUERY P002 Blue Mug price=30 stock=2
+  #1 qty=2 cost=6
+OK PRICE P001 25
+REPORT
+  P001 stock=5 value=20
+  P002 stock=2 value=12
+REVENUE 0
+COGS 0
+GIFTCOST 0
+PROFIT 0
+BYE
